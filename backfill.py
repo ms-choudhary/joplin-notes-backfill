@@ -9,7 +9,7 @@ from urllib.parse import urlparse
 
 JOPLIN_PORT = 41184
 TOKEN = os.getenv("JOPLIN_TOKEN")
-INBOX_LINKS_ID = "3799cd6846b74411b30afbcdffac8023"
+INBOX_LINKS_ID = "3799cd6846b74411b30afbcdffac8023"  # Inbox/Links folder ID
 API_BASE = f"http://127.0.0.1:{JOPLIN_PORT}"
 
 def joplin_get(path):
